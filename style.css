@@ -1,14 +1,17 @@
 #section-header-left{
-  display: inline;
-}
-#section-header-right-social{
-  display: inline;
-  float: right;
-  list-style: none;
+  display: inline-block;
 }
 
-#logo {
-  display: inline;
+#section-header-left img {
+  display: inline-block;
+}
+
+#section-header-left-text {
+  display: inline-block;
+}
+
+#section-header-right-social{
+  display: inline-block;
 }
 
 #section-header-right-social ul {
@@ -17,4 +20,11 @@
 }
 #section-header-right-social ul li {
   display: inline;
+}
+
+header{
+  border-bottom: thick;
+  border-bottom-style: dashed;
+  border-bottom-color: gray;
+  border-width: 15px;
 }
