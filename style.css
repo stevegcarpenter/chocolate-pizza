@@ -72,3 +72,18 @@ header{
   border-bottom-color: gray;
   border-width: 3px;
 }
+
+.two-column-list{
+  background-image: url("img/list-bg.png");
+  list-style: none;
+ }
+
+#cbox1, #cbox2, #cbox3, #cbox4, #cbox5, #cbox6, #cbox7, #cbox8, #cbox9, #cbox10, #cbox11, #cbox12 {
+  color: black;
+  text-decoration: line-through;
+}
+
+input[type=checkbox]:checked + label {
+  color: black;
+  text-decoration: line-through;
+}
