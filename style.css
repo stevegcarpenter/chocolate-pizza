@@ -130,3 +130,21 @@ input[type=checkbox]:checked + label {
   padding: 9px 36px;
   display: inline-block;
 }
+
+#ending-footer {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  border-top: thick;
+  border-top-style: solid;
+  border-top-color: gray;
+  border-width: 1px;
+}
+
+#ending-footer p {
+  margin-left: 280px;
+}
+
+#ending-footer img {
+  margin-top: -18px;
+  margin-left: 397px;
+}
