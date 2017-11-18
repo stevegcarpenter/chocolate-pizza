@@ -1,8 +1,32 @@
 body {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 2px;
   margin-bottom: 2px;
+  max-width: 899px;
+}
+
+.oswald-text {
+  font-family: "Oswald";
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#article-title-details h1 {
+  font-size: 45px;
+}
+
+#article-title-details {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#print-icon {
+  margin-left: 698px;
+}
+
+#article-print img, #article-print p {
+  display: inline-block;
 }
 
 #section-header-left{
@@ -30,6 +54,8 @@ body {
 
 #section-header-right-social{
   display: inline-block;
+  position: relative;
+  margin-left: 412px;
 }
 
 #section-header-right-social ul {
