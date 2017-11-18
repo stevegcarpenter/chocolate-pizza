@@ -12,6 +12,10 @@ body {
   margin-top: 0px;
 }
 
+.indent-para {
+  text-indent: 2em;
+}
+
 #article-title-details h1 {
   font-size: 45px;
 }
@@ -78,6 +82,19 @@ header{
   list-style: none;
  }
 
+#list-left, #list-right {
+  list-style: none;
+  display: inline-block;
+}
+
+#list-left {
+  margin-left: 55px;
+}
+
+#list-right {
+  margin-left: 170;
+}
+
 #cbox1, #cbox2, #cbox3, #cbox4, #cbox5, #cbox6, #cbox7, #cbox8, #cbox9, #cbox10, #cbox11, #cbox12 {
   color: black;
   text-decoration: line-through;
@@ -86,4 +103,30 @@ header{
 input[type=checkbox]:checked + label {
   color: black;
   text-decoration: line-through;
+}
+
+#article-footer {
+  margin-top: 25px;
+  border-top: thick;
+  border-top-style: dashed;
+  border-top-color: gray;
+  border-width: 3px;
+}
+
+#auther-bio {
+  display: inline-block;
+  margin-right: 73px;
+}
+
+#article-footer img {
+  display: inline-block;
+  margin-top: 25px;
+}
+
+#button1 {
+  font-family: "Oswald";
+  background: #bc7058;
+  color: white;
+  padding: 9px 36px;
+  display: inline-block;
 }
